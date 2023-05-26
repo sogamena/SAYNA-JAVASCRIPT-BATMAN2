@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'rajdhani medium';
+    src: url('../police/rajdhani/Rajdhani-Medium.ttf');
+}
+body{
+    background: black;
+}
+
+header{
+    background-image: url('../Illustrations2/Batgame_1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 130vh;
+}
+
+.menu{
+    margin-right: 10%;
+}
+.menu ul li{
+    margin-left: 5%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 36px;
+    font-family: 'rajdhani medium';
+    color: #eddebf;
+}
+
+
+.contour1{
+    border: 2px solid #BCBBBD;
+    border-top: none;
+    border-bottom: none;
+    width: 86%;
+    margin: 0 auto;
+    padding-bottom: 20%;
+}
+
+/* Style texte game */
+.texte-game{
+    margin-top: 12%;
+    margin-left: 10%;
+
+}
+
+.texte-game p{
+    font-size: 48px;
+    font-family: 'rajdhani medium';
+}

@@ -1,0 +1,159 @@
+@media screen and (max-width: 360px) {
+    header {
+        height: 250px;
+    }
+    .logo img{
+        width: 70%;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 5%;
+        border-bottom: 3px solid #BCBBBD;
+    }
+    
+    h1 {
+        font-size: 18px;
+        font-family: 'rajdhani medium';
+    }
+    
+    button {
+        font-size: 10px;
+    }
+    
+    .nom-bathome p,
+    label {
+        font-size: 9px;
+    }
+    
+    .texte-bat,
+    ::placeholder,
+    .aventure p {
+        font-size: 9px;
+    }
+    
+    .texte-menu p {
+        font-size: 11px;
+    }
+    
+    .intro {
+        margin-top: 0%;
+        width: 59%;
+    }
+    
+    .intro .batman {
+        margin-top: 2%;
+    }
+    
+    .bouton-menu {
+        margin-top: 8%;
+    }
+    
+    .bouton-menu button {
+        position: relative;
+        border: none;
+        background: linear-gradient(to right, #eddebf40, #89000860);
+        font-size: 11px;
+        padding: 2% 3%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        z-index: 10;
+    }
+    
+    .bouton-menu button:hover {
+        background: linear-gradient(to right, #eddebf, #890008);
+        z-index: 5;
+    }
+    
+    .nav-fixe {
+        position: fixed;
+        right: -13%;
+        flex-wrap: wrap;
+        bottom: 20%;
+        z-index: 1;
+    }
+    
+    .nav-fixe ul li {
+        padding: 5px;
+    }
+    
+    .sous-icon {
+        width: 50%;
+    }
+    
+    .arrow img {
+        width: 50%;
+    }
+    
+    .heros {
+        width: 80%;
+    }
+    
+    .fleche {
+        margin: 0 auto;
+        width: 10%;
+    }
+    
+    .fleche img {
+        width: 70%;
+    }
+    
+    .man-logo img {
+        width: 70%;
+        margin-left: 40%;
+        margin-top: -60%;
+    }
+    
+    .logos {
+        background: url('../Illustrations/Bathome13.png');
+        background-size: 65%;
+        background-repeat: no-repeat;
+        background-position-x: right;
+        width: 50%;
+        height: 70px;
+        z-index: -1;
+    }
+    
+    .logos h1 {
+        width: 150px;
+        padding: 0px;
+        padding-top: 40px;
+    }
+    
+    #justice-league {
+        width: 80%;
+    }
+    
+    .pre-sui img {
+        width: 70%;
+        margin-top: 120%;
+    }
+    
+    #texte-annonce {
+        width: 80%;
+        height: 15vh;
+    }
+    
+    #texte-annonce img {
+        height: 15vh;
+        border-radius: 5px 0px 0px 5px;
+    }
+    
+    .bande-texte p {
+        font-size: 5px;
+        word-wrap: wrap;
+    }
+    
+    .bande-texte {
+        width: 45% !important;
+    }
+    
+    .formulaire {
+        height: 450px;
+    }
+    
+    .type-input {
+        display: block;
+        width: 50
+    }
+}

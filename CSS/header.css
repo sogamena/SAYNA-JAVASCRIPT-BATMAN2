@@ -1,0 +1,137 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    border-bottom: 3px solid #BCBBBD;
+
+}
+.logo img:hover{
+    
+    filter: invert(45%) sepia(50%) saturate(1211%) hue-rotate(20deg) brightness(127%) contrast(106%);
+    cursor: pointer;
+}
+/*-------------------------------Style et couleur du texte,titre, bouton, etc -------------------------*/
+h1, p,label{
+    color: white;
+}
+.select{
+    color: #c4c4c4;
+}
+::placeholder{
+    color: #c4c4c4;
+}
+/* ceci est une style du titre*/
+.menu{
+    width: 18%;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li{
+    margin-right: 10%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 36px;
+    font-family: 'rajdhani medium';
+    color: #eddebf;
+}
+h1, .menu ul li p{
+    font-size: 36px;
+    font-family: 'rajdhani medium';
+}
+.menu ul li a:hover{
+    border-bottom: 2px solid white ;
+}
+
+.current{
+    border-bottom: 2px solid white ; 
+}
+
+/* Taille et Police du boutons */
+
+
+.nom-bathome p, label{
+    font-size: 22px;
+    font-family: 'space grotesk regular';
+}
+
+.texte-bat, ::placeholder, .aventure p{
+    font-size: 18px;
+    font-family: 'space grotesk regular';
+}
+
+.batman{
+    font-family: 'rajdhan bold';
+}
+
+
+/*---------------------- Fin style titres, textes, sous titres --------------------*/
+
+
+.intro{
+    width: 44%;
+    margin: 10% auto 0 auto;
+    text-align: center;
+    padding-top: 5%;    
+}
+.intro p{
+    font-size: 22px;
+}
+.intro .batman{
+    margin-top: 3%;
+}
+
+.bouton-menu{
+    margin-top: 25%;
+}
+/* Style bouton sur menu */
+.bouton-menu button{
+    border: none;
+    background: linear-gradient(to right,#eddebf40, #89000860);
+    font-size: 22px;
+    padding: 2% 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+button:hover{
+    background: linear-gradient(to right,#eddebf, #890008);
+}
+
+/* Fin d'entete du page */
+
+/* Debut d'une contenu du page */
+
+main{
+    background: #000;
+}
+
+/* Style logo fixe */
+.nav-fixe{
+    position: fixed;
+    right: 30px;
+    flex-wrap: wrap;
+    bottom: 20%;
+    z-index: 100;
+}
+
+.nav-fixe ul{
+    list-style: none;
+}
+
+.nav-fixe ul li{
+    padding: 10px;
+}
+
+.nav-fixe ul li a:hover{
+    
+    filter: invert(45%) sepia(50%) saturate(1211%) hue-rotate(20deg) brightness(127%) contrast(106%);
+    cursor: pointer;
+}
+
+.nav-fixe ul li .icon{
+    text-align:center;
+    font-size: large;
+}
