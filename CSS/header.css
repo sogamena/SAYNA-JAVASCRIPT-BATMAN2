@@ -1,3 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family:'rajdhani bold';
+    src: url('../police/rajdhani/Rajdhani-Bold.ttf');
+}
+@font-face {
+    font-family:'rajdhani medium';
+    src: url('../police/rajdhani/Rajdhani-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'rajdhani regular';
+    src: url('../police/rajdhani/Rajdhani-Regular.ttf');
+}
+@font-face{
+    font-family: 'space grotesk regular';
+    src: url('../police/Space_Grotesk/SpaceGrotesk-Regular.ttf');
+}
+@font-face{
+    font-family: 'space grotesk bold';
+    src: url('../police/Space_Grotesk/SpaceGrotesk-Bold.ttf');
+}
+
+/*---------------------Debut style entete du page--------------------------------*/
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -111,7 +140,7 @@ main{
 /* Style logo fixe */
 .nav-fixe{
     position: fixed;
-    right: 30px;
+    right: 2.4%;
     flex-wrap: wrap;
     bottom: 20%;
     z-index: 100;
@@ -134,4 +163,20 @@ main{
 .nav-fixe ul li .icon{
     text-align:center;
     font-size: large;
+}
+
+.contour1{
+    border: 2px solid #BCBBBD;
+    border-top: none;
+    border-bottom: none;
+    width: 86%;
+    margin: 0 auto;
+    padding-bottom: 20%;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 1200px){
+    .nav-fixe{
+        right: -2.5%
+    }
 }

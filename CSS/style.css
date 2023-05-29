@@ -1,30 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-@font-face{
-    font-family:'rajdhani bold';
-    src: url('../police/rajdhani/Rajdhani-Bold.ttf');
-}
-@font-face {
-    font-family:'rajdhani medium';
-    src: url('../police/rajdhani/Rajdhani-Medium.ttf');
-}
-
-@font-face {
-    font-family: 'rajdhani regular';
-    src: url('../police/rajdhani/Rajdhani-Regular.ttf');
-}
-@font-face{
-    font-family: 'space grotesk regular';
-    src: url('../police/Space_Grotesk/SpaceGrotesk-Regular.ttf');
-}
-@font-face{
-    font-family: 'space grotesk bold';
-    src: url('../police/Space_Grotesk/SpaceGrotesk-Bold.ttf');
-}
-
 /*---------------------Debut style entete du page--------------------------------*/
 
 header{
@@ -40,14 +13,14 @@ header{
 /* fin style logo fixe */
 
 /* Fleche */
-.contour1{
+/* .contour1{
     border: 2px solid #BCBBBD;
     border-top: none;
     border-bottom: none;
     width: 86%;
     margin: 0 auto;
     padding-bottom: 20%;
-}
+} */
 .contour2{
     border: 2px solid #BCBBBD;
     border-top: none;
