@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/footer.css">
     <title>Projet Batman 1</title>
+    <script src="JS/login.js" defer></script>
 </head>
 <body>
     <!-- Ceci est une entete du page -->
@@ -316,21 +317,16 @@
                     <input type="text" placeholder="Laissez un commentaire pour la communauté" required><br>
                 </div>
             </div>
-        </div>
-        
-        <div id="confirme" class="cadre">
-            <div class="fond"></div>
-            <!-- <input type="checkbox" id="show"> -->
-            <div class="fond">
-                <div class="recu">
-                    <h3>message reçu</h3>
-                </div>
+            <div class="centre-confirm">
+                <button type="submit" id="show">CONFIRMER</button>
             </div>
+
         </div>
-        <div class="centre-confirm">
-            <label for="show" class="confirme">
-                <button type="submit">CONFIRMER</button>
-            </label>
+        <div id="confirme" class="cadre">
+            <div class="btn-fermer">&times;</div>
+            <div class="recu">
+                <h3>message reçu</h3>
+            </div>
         </div>
         </div>
     </main>

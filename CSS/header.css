@@ -26,7 +26,9 @@
 }
 
 /*---------------------Debut style entete du page--------------------------------*/
-
+body{
+    background: #000;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -115,15 +117,18 @@ h1, .menu ul li p{
 
 .bouton-menu{
     margin-top: 25%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 /* Style bouton sur menu */
 .bouton-menu button{
     border: none;
     background: linear-gradient(to right,#eddebf40, #89000860);
     font-size: 22px;
-    padding: 2% 3%;
-    margin-left: 5%;
-    margin-right: 5%;
+    padding: 5% 4%;
+    width: 110%;
+    height: 110%;
 }
 button:hover{
     background: linear-gradient(to right,#eddebf, #890008);
