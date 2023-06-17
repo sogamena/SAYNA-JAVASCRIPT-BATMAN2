@@ -179,6 +179,15 @@ main{
     padding-bottom: 20%;
 }
 
+.contourpage{
+    position: relative;
+    border: 2px solid #BCBBBD;
+    border-top: none;
+    border-bottom: none;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 20%;
+}
 
 @media screen and (min-width: 320px) and (max-width: 1200px){
     .nav-fixe{

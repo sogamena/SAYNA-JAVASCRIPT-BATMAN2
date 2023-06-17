@@ -1,7 +1,141 @@
+@font-face{
+    font-family:'rajdhani bold';
+    src: url('../police/rajdhani/Rajdhani-Bold.ttf');
+}
+@font-face {
+    font-family:'rajdhani medium';
+    src: url('../police/rajdhani/Rajdhani-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'rajdhani regular';
+    src: url('../police/rajdhani/Rajdhani-Regular.ttf');
+}
+@font-face{
+    font-family: 'space grotesk regular';
+    src: url('../police/Space_Grotesk/SpaceGrotesk-Regular.ttf');
+}
+@font-face{
+    font-family: 'space grotesk bold';
+    src: url('../police/Space_Grotesk/SpaceGrotesk-Bold.ttf');
+}
+
+
 header{
     background-image: url('../Illustrations2/Batgame_1.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 130vh;
+}
+
+
+/* ----------------------Game style----------------- */
+
+#game{
+    top: 0;
+    width: 86%;
+    left: 50%;
+    margin: 0 auto;
+}
+
+#game .fleche{
+    position: absolute;
+    left: 50%;
+    top: 120%;
+}
+
+
+#game .game-text1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'rajdhani bold';
+    margin-top: 10%;
+}
+
+
+/* ---------------Taille texte en haut image---- */
+#game .game-text1 p{
+    font-size: 38px;
+}
+
+#game .game-text2,
+.jeux .game-text2{
+    text-align: center;
+    margin-top: 5%;
+}
+
+/*-------------------- Style bouton------------- */
+
+#game .game-text2 button,
+.jeux .game-text2 button{
+    border: none;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    font-family:'rajdhani bold';
+}
+
+
+/* -------------------Jeux---------------------- */
+
+.jeux{
+    position: absolute;
+    top: 100%;
+    width: 86%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    margin: 0 auto;
+    background: greenyellow;
+}
+/* ----------------Style numéro question--------- */
+.jeux .num-ordre{
+    position: absolute;
+    left: 45%;
+}
+
+/* ---------------Taille question---------------- */
+
+.jeux .num-ordre{
+    font-size: 52px;
+}
+
+.jeux .contenu-jeux{
+    display: flex;
+    background: orangered;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.jeux .question{
+    text-align: left;
+    font-family:'rajdhani medium';
+    background: red;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* --------------- taille question----------------*/
+
+.jeux .question p{
+    font-size: 25px;
+}
+
+.question-jeux {
+    display: block;
+}
+
+.question-jeux .reponse{
+    background: rgb(138, 138, 138);
+    margin-top: 10px;
+    height: 40px;
+}
+
+.question-jeux .reponse input{
+    height:70%;
+    width: 70%;
+    border: 1px solid white;
+    margin-left: -30%;
+    margin-top: 1%;
+    outline: none;
 }
