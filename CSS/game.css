@@ -131,11 +131,10 @@ header{
     height: 40px;
 }
 
-.question-jeux .reponse input{
-    height:70%;
-    width: 70%;
-    border: 1px solid white;
-    margin-left: -30%;
-    margin-top: 1%;
-    outline: none;
+.question-jeux .reponse input[type="checkbox"]{
+    appearance: none;
+    -webkit-appearence: none;
+    height: 20px;
+    width: 20px;
+    background-color: red;
 }
