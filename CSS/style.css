@@ -150,13 +150,20 @@ header{
     border-radius: 15px 0px 0px 15px;
 }
 
-.pre-sui img{
-    width: 70%;
-    margin-top: 200%;
-}
-
 .next img{
     margin-left: 25%;
+}
+
+.control{
+    position: relative;
+    top: 45%;
+    height: 40px;
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+.control:hover{
+    background: none;
 }
 
 /* Multimedia */
@@ -214,6 +221,8 @@ header{
     padding-top: 4%;
     
 }
+
+/*---------------------Bande annonce video --------------------*/
 .video{
     margin: 10% auto;
 }
@@ -224,6 +233,7 @@ header{
 video{
     width: 100%;
 }
+
 
 
 

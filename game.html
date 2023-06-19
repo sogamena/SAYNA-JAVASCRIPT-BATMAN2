@@ -1,4 +1,4 @@
-.q<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -25,10 +25,9 @@
                 </div>
             </nav>
             <!-- Introduction sur menu -->
-            <div class="intro">
-                <div class="texte-menu">
-                    <p>Au nom de ses parents assassinés, Bruce Wayne mène  une guerre éternelle contre les criminels de Gotham City.</p>
-
+            <div class="intro-game">
+                <div class="texte-menu-game">
+                    <p>let's play a <br> little game...</p>
                 </div>
             </div>
         </div>
@@ -80,17 +79,17 @@
                     <div class="question">
                         <p>Quel est l'autre nom de l'Homme-Mystère ?</p><br><br>
 
-                    <div class="question-jeux">
-                        <div class="reponse">
-                            <input type="checkbox" id="sphinx">
+                    <div class="input-quiz">
+                        <div class="quiz">
+                            <input type="checkbox" value="sphinx" id="sphinx" class="checkbox">
                             <label for="sphinx">Les Sphinx</label>
                         </div>
-                        <div class="reponse">
-                            <input type="checkbox" class="saphir" id="saphir">
+                        <div class="quiz">
+                            <input type="checkbox" value="saphir" id="saphir" class="checkbox">
                             <label for="saphir">Saphir</label>
                         </div>
-                        <div class="reponse">
-                            <input type="checkbox" class="joker" id="joker">
+                        <div class="quiz">
+                            <input type="checkbox" value="joker" id="joker" class="checkbox">
                             <label for="joker">Le Joker</label>
                         </div>
                     </div>
@@ -98,6 +97,9 @@
             </div>
             <div class="game-text2">
                 <button>question suivante</button>
+            </div>
+            <div class="print-values">
+                <p id="valueList"></p>
             </div>
         </div>
     </main>
@@ -160,5 +162,6 @@
             </div>
         </div>
     </footer>
+    <script src="JS/script.js"></script>
 </body>
 </html>
